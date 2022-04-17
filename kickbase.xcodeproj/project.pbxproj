@@ -19,6 +19,7 @@
 		B4492644280C4F8400B5B5B5 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4492643280C4F8400B5B5B5 /* SettingsView.swift */; };
 		B4492646280C4FED00B5B5B5 /* PlayerData.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4492645280C4FED00B5B5B5 /* PlayerData.swift */; };
 		B4492648280C50CD00B5B5B5 /* LiveView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4492647280C50CD00B5B5B5 /* LiveView.swift */; };
+		B449264A280C569D00B5B5B5 /* PlayerDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4492649280C569D00B5B5B5 /* PlayerDetailView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -35,6 +36,7 @@
 		B4492643280C4F8400B5B5B5 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
 		B4492645280C4FED00B5B5B5 /* PlayerData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerData.swift; sourceTree = "<group>"; };
 		B4492647280C50CD00B5B5B5 /* LiveView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LiveView.swift; sourceTree = "<group>"; };
+		B4492649280C569D00B5B5B5 /* PlayerDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerDetailView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -69,6 +71,7 @@
 			children = (
 				B449262B280C1E1100B5B5B5 /* kickbaseApp.swift */,
 				B449262D280C1E1100B5B5B5 /* ContentView.swift */,
+				B4492649280C569D00B5B5B5 /* PlayerDetailView.swift */,
 				B4492647280C50CD00B5B5B5 /* LiveView.swift */,
 				B4492645280C4FED00B5B5B5 /* PlayerData.swift */,
 				B449262F280C1E1500B5B5B5 /* Assets.xcassets */,
@@ -168,6 +171,7 @@
 				B449263E280C4F2E00B5B5B5 /* TeamView.swift in Sources */,
 				B449262E280C1E1100B5B5B5 /* ContentView.swift in Sources */,
 				B4492648280C50CD00B5B5B5 /* LiveView.swift in Sources */,
+				B449264A280C569D00B5B5B5 /* PlayerDetailView.swift in Sources */,
 				B4492646280C4FED00B5B5B5 /* PlayerData.swift in Sources */,
 				B4492642280C4F5F00B5B5B5 /* BundesligaView.swift in Sources */,
 				B449262C280C1E1100B5B5B5 /* kickbaseApp.swift in Sources */,
