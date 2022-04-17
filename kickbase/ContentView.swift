@@ -12,37 +12,37 @@ struct ContentView: View {
         TabView {
             BaseView()
                 .tabItem {
-                    Label("Base", systemImage: "person")
+                    Label("Base", systemImage: "newspaper.fill")
                 }
             
             TransferView()
                 .tabItem {
-                    Label("Transfers", systemImage: "book")
+                    Label("Transfers", systemImage: "person.fill.and.arrow.left.and.arrow.right")
                 }
             
             TeamView()
                 .tabItem {
-                    Label("Team", systemImage: "star")
+                    Label("Team", systemImage: "person.3.fill")
                 }
             
             LiveView()
                 .tabItem {
-                    Label("Live", systemImage: "hand.thumbsup")
+                    Label("Live", systemImage: "play.tv")
                 }
             
             LigaView()
                 .tabItem {
-                    Label("Liga", systemImage: "hand.thumbsup")
+                    Label("Liga", systemImage: "star.fill")
                 }
             
             BundesligaView()
                 .tabItem {
-                    Label("Bundesliga", systemImage: "hand.thumbsup")
+                    Label("Bundesliga", systemImage: "tablecells.fill")
                 }
             
             SettingsView()
                 .tabItem {
-                    Label("Einstellungen", systemImage: "hand.thumbsup")
+                    Label("Einstellungen", systemImage: "gearshape.fill")
                 }
         }
     }

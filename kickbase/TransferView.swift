@@ -80,7 +80,7 @@ struct PlayerRow: View {
                         .foregroundColor(Color.red)
                 }
                 Spacer()
-                TextField("Angebot an Kickbase", text: $offer).keyboardType(.numberPad)
+                TextField("Angebot an Kickbase", text: $offer).keyboardType(.decimalPad)
                 Spacer()
                 Image(systemName: "chevron.right")
             }
