@@ -11,6 +11,14 @@
 		B449262E280C1E1100B5B5B5 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B449262D280C1E1100B5B5B5 /* ContentView.swift */; };
 		B4492630280C1E1500B5B5B5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B449262F280C1E1500B5B5B5 /* Assets.xcassets */; };
 		B4492633280C1E1500B5B5B5 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B4492632280C1E1500B5B5B5 /* Preview Assets.xcassets */; };
+		B449263A280C4EFB00B5B5B5 /* BaseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4492639280C4EFB00B5B5B5 /* BaseView.swift */; };
+		B449263C280C4F1000B5B5B5 /* TransferView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B449263B280C4F1000B5B5B5 /* TransferView.swift */; };
+		B449263E280C4F2E00B5B5B5 /* TeamView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B449263D280C4F2E00B5B5B5 /* TeamView.swift */; };
+		B4492640280C4F4400B5B5B5 /* LigaView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B449263F280C4F4400B5B5B5 /* LigaView.swift */; };
+		B4492642280C4F5F00B5B5B5 /* BundesligaView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4492641280C4F5F00B5B5B5 /* BundesligaView.swift */; };
+		B4492644280C4F8400B5B5B5 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4492643280C4F8400B5B5B5 /* SettingsView.swift */; };
+		B4492646280C4FED00B5B5B5 /* PlayerData.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4492645280C4FED00B5B5B5 /* PlayerData.swift */; };
+		B4492648280C50CD00B5B5B5 /* LiveView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4492647280C50CD00B5B5B5 /* LiveView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +27,14 @@
 		B449262D280C1E1100B5B5B5 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		B449262F280C1E1500B5B5B5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B4492632280C1E1500B5B5B5 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		B4492639280C4EFB00B5B5B5 /* BaseView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseView.swift; sourceTree = "<group>"; };
+		B449263B280C4F1000B5B5B5 /* TransferView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransferView.swift; sourceTree = "<group>"; };
+		B449263D280C4F2E00B5B5B5 /* TeamView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TeamView.swift; sourceTree = "<group>"; };
+		B449263F280C4F4400B5B5B5 /* LigaView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LigaView.swift; sourceTree = "<group>"; };
+		B4492641280C4F5F00B5B5B5 /* BundesligaView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BundesligaView.swift; sourceTree = "<group>"; };
+		B4492643280C4F8400B5B5B5 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		B4492645280C4FED00B5B5B5 /* PlayerData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerData.swift; sourceTree = "<group>"; };
+		B4492647280C50CD00B5B5B5 /* LiveView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LiveView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,8 +69,16 @@
 			children = (
 				B449262B280C1E1100B5B5B5 /* kickbaseApp.swift */,
 				B449262D280C1E1100B5B5B5 /* ContentView.swift */,
+				B4492647280C50CD00B5B5B5 /* LiveView.swift */,
+				B4492645280C4FED00B5B5B5 /* PlayerData.swift */,
 				B449262F280C1E1500B5B5B5 /* Assets.xcassets */,
 				B4492631280C1E1500B5B5B5 /* Preview Content */,
+				B4492639280C4EFB00B5B5B5 /* BaseView.swift */,
+				B449263B280C4F1000B5B5B5 /* TransferView.swift */,
+				B449263D280C4F2E00B5B5B5 /* TeamView.swift */,
+				B449263F280C4F4400B5B5B5 /* LigaView.swift */,
+				B4492641280C4F5F00B5B5B5 /* BundesligaView.swift */,
+				B4492643280C4F8400B5B5B5 /* SettingsView.swift */,
 			);
 			path = kickbase;
 			sourceTree = "<group>";
@@ -137,7 +161,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B449263A280C4EFB00B5B5B5 /* BaseView.swift in Sources */,
+				B4492644280C4F8400B5B5B5 /* SettingsView.swift in Sources */,
+				B4492640280C4F4400B5B5B5 /* LigaView.swift in Sources */,
+				B449263C280C4F1000B5B5B5 /* TransferView.swift in Sources */,
+				B449263E280C4F2E00B5B5B5 /* TeamView.swift in Sources */,
 				B449262E280C1E1100B5B5B5 /* ContentView.swift in Sources */,
+				B4492648280C50CD00B5B5B5 /* LiveView.swift in Sources */,
+				B4492646280C4FED00B5B5B5 /* PlayerData.swift in Sources */,
+				B4492642280C4F5F00B5B5B5 /* BundesligaView.swift in Sources */,
 				B449262C280C1E1100B5B5B5 /* kickbaseApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
