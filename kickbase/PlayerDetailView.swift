@@ -9,14 +9,23 @@ import SwiftUI
 
 struct PlayerDetailView: View {
     let player: Player
+    @Environment(\.presentationMode) var presentationMode
     
     var body: some View {
         VStack {
             VStack {
                 VStack {
+                    Button {
+                        presentationMode.wrappedValue.dismiss()
+                    } label: {
+                        Image(systemName: "arrow.up.circle")
+                    }
+                    .padding(.vertical)
+                    
                     Text(player.name)
                         .font(.title)
                     .fontWeight(.bold)
+                    
                     HStack {
                         Text("\(player.teamNumber)")
                             .font(.caption)
@@ -31,7 +40,6 @@ struct PlayerDetailView: View {
                     .aspectRatio(contentMode: .fit)
                     .frame(width: 200)
             }
-            .frame(height: 300.0, alignment: .center)
             
             HStack(alignment: .center) {
                 VStack {
@@ -40,15 +48,11 @@ struct PlayerDetailView: View {
                         .font(.caption)
                 }
                 
-                Spacer()
-                
                 VStack {
                     Text("\(player.occurencies)")
                     Text("Einsätze")
                         .font(.caption)
                 }
-                
-                Spacer()
                 
                 VStack {
                     Text("\(player.s11)")
@@ -56,15 +60,11 @@ struct PlayerDetailView: View {
                         .font(.caption)
                 }
                 
-                Spacer()
-                
                 VStack {
                     Text("\(player.yellowCards)")
                     Text("Gelbe Karten")
                         .font(.caption)
                 }
-                
-                Spacer()
                 
                 VStack {
                     Text("\(player.goals)")
@@ -85,6 +85,7 @@ struct PlayerDetailView: View {
                 Text("Punkte")
                     .font(.caption)
             }
+            .frame(maxWidth: .infinity)
             .padding(.vertical)
             
             VStack {
@@ -103,7 +104,7 @@ struct PlayerDetailView: View {
             }
             .padding(.vertical)
             
-            VStack {
+            VStack(spacing: 4.0) {
                 if player.fitnessStatus == "fit" {
                     Image(systemName: "checkmark.circle.fill")
                         .foregroundColor(Color.green)
