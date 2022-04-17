@@ -9,7 +9,7 @@ import SwiftUI
 
 // A view that shows the data for one Player
 struct PlayerRow: View {
-    var player: Player
+    let player: Player
     @State private var offer: String = ""
     @State private var showDetails: Bool = false
     
